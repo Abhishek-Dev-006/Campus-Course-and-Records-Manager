@@ -1,4 +1,4 @@
-### Campus Course Records Manager (CCRM)
+# Campus Course Records Manager (CCRM)
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ The project demonstrates key Object-Oriented Programming (OOP) concepts, employs
 
 ## Features
 
-# Student Management
+### Student Management
 
 - Add new students with registration number, name, email, status, and enrollment date.
 
@@ -18,13 +18,13 @@ The project demonstrates key Object-Oriented Programming (OOP) concepts, employs
 
 - Manage active/inactive status for students.
 
-# Course Management
+### Course Management
 
 - Add, update, and list courses with attributes including course code, title, credits, department, semester, and assigned instructor.
 
 - Search and filter courses by instructor, department, and semester.
 
-# Enrollment and Grading
+### Enrollment and Grading
 
 - Enroll and unenroll students in/from courses with automatic checks for duplicate enrollment and max credit constraints.
 
@@ -32,17 +32,17 @@ The project demonstrates key Object-Oriented Programming (OOP) concepts, employs
 
 - Compute GPA based on course credits and grades.
 
-# Transcript Generation
+### Transcript Generation
 
 - Print student transcripts showing course details, marks, grades, and cumulative GPA.
 
-# File Import/Export and Backup
+### File Import/Export and Backup
 
 - Import and export student and course data in CSV-like text files.
 
 - Backup application data recursively with timestamped directories using Java NIO.2 API.
 
-# User Interface
+### User Interface
 
 - Fully menu-driven CLI enabling easy navigation and interaction.
 
@@ -82,13 +82,13 @@ The project demonstrates key Object-Oriented Programming (OOP) concepts, employs
 
 ## Installation and Setup
 
-# Prerequisites:
+## Prerequisites:
 
 - Java JDK 17 or later installed on your system.
 
 - Preferred IDE (Eclipse, IntelliJ IDEA) or command line setup.
 
-# Setup:
+## Setup:
 
 - Clone or download the source code repository.
 
@@ -96,7 +96,7 @@ The project demonstrates key Object-Oriented Programming (OOP) concepts, employs
 
 - Compile the source files maintaining package structure.
 
-# Build:
+## Build:
 
 - In IDE: Build or compile the project normally.
 
@@ -107,7 +107,7 @@ text
 javac -d bin src/edu/ccrm/**/*.java
 ```
 
-# Run:
+## Run:
 
 - Run the CLI Menu main class:
 
@@ -134,7 +134,7 @@ java -cp bin edu.ccrm.cli.CCRMMenu
 
 ## Sample Commands and Expected Output
 
-# 1. Adding a New Student
+## 1. Adding a New Student
 
 ```bash
 text
@@ -148,7 +148,7 @@ Enter Email: xyz@gmail.com
 Enter Registration Number: abcd1
 Student added successfully.
 ```
-# 2. Listing All Students
+## 2. Listing All Students
 
 ```bash
 text
@@ -164,7 +164,7 @@ Student Profile | Name: Saubhagya Srivastava | Reg No: abcd3 | Email: pqr@gmail.
 Student Profile | Name: Adarsh Patel | Reg No: abcd4 | Email: lmn@gmail.com
 ```
 
-# 3. Listing All Courses
+## 3. Listing All Courses
 
 ```bash
 text
@@ -181,7 +181,7 @@ Course [CS101: Intro to CS, Credits: 4, Instructor: TBD, Semester: FALL]
 Course [MA202: Calculus II, Credits: 3, Instructor: TBD, Semester: SPRING]
 ```
 
-# 4. Exporting Students to CSV
+## 4. Exporting Students to CSV
 
 ```bash
 text
@@ -199,7 +199,7 @@ Enter your choice: 1
 Successfully exported 6 students to data\students_export.csv
 ```
 
-# 5. Creating a Data Backup
+## 5. Creating a Data Backup
 
 ```bash
 text
@@ -211,7 +211,7 @@ Backup created at: backups\backup_20250925_182846
 Total size of backup: 0 bytes.
 ```
 
-# 6. Application Startup and Exit
+## 6. Application Startup and Exit
 
 ```bash
 text
